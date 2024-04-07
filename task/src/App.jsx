@@ -11,9 +11,9 @@ function App() {
     {/* <Header></Header> */}
     <BrowserRouter>
     <Routes>
-      <Route path="" element={<Profile/>}/>
+      <Route path="/profile" element={<Profile/>}/>
       <Route path='/home' element={<Dashboard/>}/>
-      <Route path='/next' element={<Dribble/>}/>
+      <Route path='/dribble' element={<Dribble/>}/>
     </Routes>
     </BrowserRouter>
     {/* <Footer></Footer> */}
