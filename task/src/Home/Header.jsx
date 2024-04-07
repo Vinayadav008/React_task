@@ -1,12 +1,12 @@
 import React from 'react'
-
+import logo from '../images/logo.png'
 function Header() {
   return (
     <div>
       <div className="bg-secondary text-white">
         <div className='flex m-1 '>
           <div>
-            <img src="./images/logo1.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className=''>
             <a href="#">Inspiration</a>

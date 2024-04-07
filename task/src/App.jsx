@@ -8,7 +8,7 @@ import Dribble from "./Auth/Dribble";
 function App() {
   return (
     <>
-    {/* <Header></Header> */}
+    <Header></Header>
     <BrowserRouter>
     <Routes>
       <Route path="/profile" element={<Profile/>}/>
