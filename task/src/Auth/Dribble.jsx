@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../images/logo1.png'
 import profile from '../images/pr.png';
 
 function Dribble() {
@@ -25,8 +26,12 @@ function Dribble() {
 
     return (
         <div>
-            {/* Logo */}
-            <div>Logo</div>
+            {/* Logo */} 
+            <div className="flex-shrink-0">
+              <a href="#" className="font-bold text-xl text-gray-800">
+                <img src={logo} alt="logo" className="relative flex p-2 w-24 mt-2" />
+              </a>
+            </div>
 
             {/* Heading */}
             <div className='text-center mt-10'>

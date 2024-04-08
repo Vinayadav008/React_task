@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../images/logo1.png'
 
 function Profile() {
     const [profile, setProfile] = useState(null);
@@ -32,7 +33,11 @@ function Profile() {
         <>
             <div className=''>
                 {/* Logo  */}
-                <div>Logo</div>
+                <div className="flex-shrink-0">
+              <a href="#" className="font-bold text-xl text-gray-800">
+                <img src={logo} alt="logo" className="relative flex  p-2 w-24 mt-2" />
+              </a>
+            </div>
                 <div className='flex justify-center p-2'>
                     <div className=''>
                         {/* Heading  */}
