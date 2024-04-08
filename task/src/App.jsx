@@ -9,6 +9,7 @@ function App() {
   return (
     <>
     <Header></Header>
+    <div className="pt-24 sm:pt-20">
     <BrowserRouter>
     <Routes>
       <Route path="/profile" element={<Profile/>}/>
@@ -16,6 +17,7 @@ function App() {
       <Route path='/dribble' element={<Dribble/>}/>
     </Routes>
     </BrowserRouter>
+    </div>
     {/* <Footer></Footer> */}
     </>
   );
