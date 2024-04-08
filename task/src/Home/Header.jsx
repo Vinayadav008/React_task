@@ -13,7 +13,7 @@ function Header() {
             {/* logo */}
             <div className="flex-shrink-0">
               <a href="#" className="font-bold text-xl text-gray-800">
-                <img src={logo} alt="logo" className="relative flex h- w-20 mt-2" />
+                <img src={logo} alt="logo" className="relative flex  w-20 mt-2" />
               </a>
             </div>
 
