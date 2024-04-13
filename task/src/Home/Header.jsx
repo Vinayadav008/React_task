@@ -8,7 +8,7 @@ function Header() {
   const [nav, setNav] = useState("true");
   return (
 
-    // Header
+  
     // <header className="bg-white">
     <div className=" px-2 bg-white shadow-sm fixed z-50 w-full sm:px-8 ">
       <div className=" flex flex-wrap items-center justify-between py-4 gap-2 ">
