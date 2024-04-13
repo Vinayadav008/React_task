@@ -14,16 +14,28 @@ function Footer() {
     //   </div>
     // </div>
 
+    
+      // <footer className="bg-white"> 
     <div className="bg-gray-100 text-base ">
           <div className="text-sm  mx-14 ">
-            <div className="flex  ">
+
+            
+{/* -------------------Left Area----------------------- */}
+            <div className="flex ">
               <div className="w-full md:w-1/4 text-center md:text-left">
+
+                {/* logo */}
                 <a href="#" className="inline-block mb-4">
                 <img src={logo1} alt="logo" className="relative flex  p-2 w-24 mt-2" />
                 </a>
+
+
+                {/* paragraph */}
                 <p className="text-gray-800 pb-6">Dribbble is the world's leading community for creatives to share,
                   grows, and get hired.</p>
+                  
 
+                  {/* Social media icon */}
                 <div className="justify-between text-lg">
                   <i className=" mx-1 fa fa-dribbble" aria-hidden="true"></i>
                   <i className=" mx-1 fa fa-twitter" aria-hidden="true"></i>
@@ -32,6 +44,9 @@ function Footer() {
                   <i className=" mx-1 fa fa-pinterest" aria-hidden="true"></i>
                 </div>
               </div>
+
+              
+{/* -------------------Right Area----------------------- */}
               <div className="flex mx-11 p-4">
                 <div className="">
                   <h3 className="text-base font-semibold mb-2">For Designers</h3>
@@ -98,13 +113,20 @@ function Footer() {
                 </div>
               </div>
             </div>
+
+
+            {/* horizontal line */}
             <hr className="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700" />
+
+
+            {/* copyright */}
             <div className="flex  mt-7 mb-4">
               <p className=" mr-32 text-gray-500">
                 &copy; 2023 Dribbble. All rights reserved.
               </p>
 
 
+              {/* Text */}
               <p className=" ml-96 flex text-gray-500">
                 <b className="text-black ">20,501,853</b>&nbsp; shots dribbbled &nbsp;
                 <img src={icon} alt="logo" className="w-20" />
@@ -112,6 +134,8 @@ function Footer() {
             </div>
           </div>
         </div>
+
+        // </footer>
       )
 }
 
