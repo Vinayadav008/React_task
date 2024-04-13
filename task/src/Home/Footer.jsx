@@ -1,23 +1,25 @@
 import React from 'react'
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
 import logo1 from '../images/logo1.png'
 import icon from '../images/dribbble_icon.jpg'
 
 function Footer() {
   return (
-    <div className="bg-secondary text-white">
-      {/* logo */}
-      <div className="flex-shrink-0">
-        <a href="#" className="font-bold text-xl text-gray-800">
-          <img src={logo} alt="logo" className="relative flex  p-2 w-24 mt-2" />
-        </a>
-        <div className="bg-gray-100 text-base ">
+    // <div className="bg-secondary text-white">
+    //   {/* logo */}
+    //   <div className="flex-shrink-0">
+    //     <a href="#" className="font-bold text-xl text-gray-800">
+    //       <img src={logo} alt="logo" className="relative flex  p-2 w-24 mt-2" />
+    //     </a>
+    //   </div>
+    // </div>
+
+    <div className="bg-gray-100 text-base ">
           <div className="text-sm  mx-14 ">
             <div className="flex  ">
               <div className="w-full md:w-1/4 text-center md:text-left">
                 <a href="#" className="inline-block mb-4">
                 <img src={logo1} alt="logo" className="relative flex  p-2 w-24 mt-2" />
-                  {/* <img src="logo1.png" alt="Company logo" className="h-8 text-gray-900"> */}
                 </a>
                 <p className="text-gray-800 pb-6">Dribbble is the world's leading community for creatives to share,
                   grows, and get hired.</p>
@@ -105,14 +107,11 @@ function Footer() {
 
               <p className=" ml-96 flex text-gray-500">
                 <b className="text-black ">20,501,853</b>&nbsp; shots dribbbled &nbsp;
-                {/* <img className="w-6 h-6 " src="dribbble_icon.jpg" alt=""> */}
                 <img src={icon} alt="logo" className="w-20" />
               </p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
       )
 }
 
