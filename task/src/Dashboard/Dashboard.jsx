@@ -4,9 +4,10 @@ import email from '../images/icon.jpg'
 function Dashboard() {
   return (
    
-        <div className=" text-center px-64 py-32">
-            <div className="justify-center">
                 <b className="text-3xl p-4">Please verify your email...</b>
+        <div class=" text-center px-64 py-32">
+            <div class="justify-center">
+                <b class="text-3xl p-4">Please verify your email...</b>
                 <img src={email} alt="logo" className="w-5" />
                    {/* <img class=" mx-60 mt-4" src="icon.jpg" alt=""> */}
                   <p class="p-4">Please verify your email address. We've sent a confirmation email to:</p>
