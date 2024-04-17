@@ -12,8 +12,8 @@ function Dashboard() {
                   <p class="p-4">Please verify your email address. We've sent a confirmation email to:</p>
                   <b  class="p-3">account@refero.design</b>
                   <p  class="p-3">Click the confirmation link in that email to begin using Dribbble.</p>
-                  <p  class="p-3">Didn't receive the email? Check your Spam folder, it may have been caught by a filter. If you still don't see it, you can <a href="#" class="font-medium text-pink-500 text-fast-blue-800">resend the confirmation email.</a></p>
-                  <p>Wrong email address? <a href="#" class="font-medium text-primary text-fast-blue-800">Change it.</a></p>
+                  <p  class="p-3">Didn't receive the email? Check your Spam folder, it may have been caught by a filter. If you still don't see it, you can <a href="#" class="font-medium text-primary">resend the confirmation email.</a></p>
+                  <p>Wrong email address? <a href="#" class="font-medium text-primary">Change it.</a></p>
             </div>
         </div>
   )
