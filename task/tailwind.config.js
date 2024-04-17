@@ -12,7 +12,7 @@ module.exports = {
         gray:'#7c7b85',
         light_gray:'#f2f5f4',
       },
-    },
+    }, 
   },
   plugins: [],
 }
