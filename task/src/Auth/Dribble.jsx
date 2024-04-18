@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import logo from '../images/logo1.png'
-import profile from '../images/pr.png';
+import profile1 from '../images/img1.png';
+import profile2 from '../images/img3.png';
+import profile3 from '../images/img2.png';
 
 function Dribble() {
     const translate = '-translate-y-14 transition duration-300 ease-in-out';
@@ -44,7 +46,7 @@ function Dribble() {
                 {/* First option */}
                 <div className={`border rounded-md shadow-md text-center w-60 p-4 h-52 ${isCheckedFirst ? 'border-primary border-2' : 'border-secondary'}`}>
                     <div className={`${isCheckedFirst ? translate : 'transition duration-300 ease-in-out'}`}>
-                        <img src={profile} alt="" />
+                        <img src={profile1} alt="" />
                         <h2 className='text-md font-bold leading-4 mt-2'>I am designer looking to share my work</h2>
                     </div>
                     <div className={`${isCheckedFirst ? translate2 : ''}`}>
@@ -58,7 +60,7 @@ function Dribble() {
                 {/* Second options */}
                 <div className={`border rounded-md shadow-md text-center w-60 p-4 h-52 ${isCheckedSecond ? 'border-primary border-2' : 'border-secondary'}`}>
                     <div className={`${isCheckedSecond ? translate : 'transition duration-300 ease-in-out'}`}>
-                        <img src={profile} alt="" />
+                        <img src={profile3} alt="" />
                         <h2 className='text-md font-bold leading-4 mt-2'>I am looking to hire a designer</h2>
                     </div>
                     <div className={`${isCheckedSecond ? translate2 : ''}`}>
@@ -72,7 +74,7 @@ function Dribble() {
                 {/* Third options */}
                 <div className={`border rounded-md shadow-md text-center w-60 p-4 h-52 ${isCheckedThird ? 'border-primary border-2' : 'border-secondary'}`}>
                     <div className={`${isCheckedThird ? translate : 'transition duration-300 ease-in-out'}`}>
-                        <img src={profile} alt="" />
+                        <img src={profile2} alt="" />
                         <h2 className='text-md font-bold leading-4 mt-2'>I am looking for design inspiration</h2>
                     </div>
                     <div className={`${isCheckedThird ? translate2 : ''}`}>
