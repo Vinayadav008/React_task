@@ -4,10 +4,16 @@ import email from '../images/icon.jpg'
 function Dashboard() {
   return (
    
+    // start
+
         <div className=" text-center px-52 py-14">
             <div className="justify-center">
                 <b className="text-2xl p-4">Please verify your email...</b>
+
+                {/* Email image */}
                 <img src={email} alt="logo" className="w-32 mx-72 pt-5" />
+
+                {/* Pargraphs */}
                   <p className="p-4">Please verify your email address. We've sent a confirmation email to:</p>
                   <b className="p-3">account@refero.design</b>
                   <p className="p-3">Click the confirmation link in that email to begin using Dribbble.</p>
@@ -15,6 +21,8 @@ function Dashboard() {
                   <p>Wrong email address? <a href="#" className="font-medium text-primary">Change it.</a></p>
             </div>
         </div>
+
+        // End
   )
 }
 
