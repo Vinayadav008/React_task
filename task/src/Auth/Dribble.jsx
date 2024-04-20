@@ -91,7 +91,7 @@ function Dribble() {
             <div className='text-center mt-10'>
                 <p className={`font-bold mb-2 ${isFormValid()?'':'hidden'}`}>Anything else? You can select multiple</p>
                 <a href={nextLink} className={`bg-primary text-white px-20 rounded-md py-1.5  ${isFormValid() ? '' : 'opacity-45'}`} disabled={!isFormValid()}>Finish</a>
-                <p className={`text-secondary font-semibold text-sm mt-2 ${isFormValid()?'':'hidden'}`}>Or Press RETURN</p>
+                <p className={`text-secondary font-semibold text-sm mt-2 ${isFormValid()?'':'hidden'}`}><a href='/profile'>Or Press RETURN</a></p>
             </div>
         </div>
     );

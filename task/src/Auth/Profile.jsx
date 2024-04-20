@@ -75,7 +75,8 @@ function Profile() {
 
                                 {/* Submit button */}
                                 <div className='my-10'>
-                                    <a href={nextLink} className={`bg-primary text-white px-20 rounded-md py-1.5 ${isFormValid() ? '' : 'opacity-45'}`} disabled={!isFormValid()}>Next</a>
+                                    <a href={nextLink} className={`bg-primary text-white px-20 rounded-md py-1.5 ${isFormValid() ? '' : 'opacity-45'}`} disabled={!isFormValid()}>Next</a> <br />
+                                    <a href='/sign_up' className={`text-secondary font-semibold text-sm mt-4 ${isFormValid()?'':'hidden'}`}>Or Press RETURN</a>
                                 </div>
                             </form>
                         </div>
@@ -87,4 +88,3 @@ function Profile() {
 }
 // export const profile;
 export default Profile;
-export { exp };
